@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js">
+  </script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-controller="MainController">
+  <h1>{{message}}</h1>
+  <h1>{{message.length}}</h1>
+  
+  <h1>{{person.firstname}} {{person.lastname}}</h1>
+  
+  <img src="{{person.imagesrc}}" style ="width:100px"
+  title="{{person.firstname}} {{person.lastname}}">
+</body>
+
+</html>
